@@ -20,4 +20,12 @@ class Funcionario{
 		double ganhoAnual = this.salario*12;
 		return ganhoAnual;		
 	}
+	//metodo para mostrar todos os atributos
+	void mostra(){
+		System.out.println("Nome: "+this.nome);
+		System.out.println("Departamento: "+this.departamento);
+		System.out.println("Salario: "+this.salario);
+		System.out.println("DataEntrada: "+this.dataEntrada);
+		System.out.println("RG: "+this.rg);
+	}
 }
