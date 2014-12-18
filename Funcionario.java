@@ -1,7 +1,7 @@
 //Classe Funcionário
 //Uma Classe é uma receita de bolo
 //O objeto instanciado é o bolo feito a partir da classe
-class Funcionário{
+class Funcionario{
 	//atributos da classe
 	String nome;
 	String departamento;
