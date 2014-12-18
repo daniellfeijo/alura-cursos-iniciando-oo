@@ -1,6 +1,7 @@
 class TestaFuncionario{
 
 	public static void main(String[] args){
+		/*		
 		Funcionario f1 = new Funcionario();
 
 		f1.nome = "Daniel";
@@ -14,7 +15,22 @@ class TestaFuncionario{
 		System.out.println("ganho anual: " +f1.calculaGanhoAnual());
 		
 		f1.mostra();
-			
+		*/
+		Funcionario f1 = new Funcionario();        
+		f1.nome = "Danilo";
+		f1.salario = 100;
+
+		Funcionario f2 = new Funcionario();        
+		f2.nome = "Danilo";
+		f2.salario = 100;
+		
+		//sempre vai dar diferente pois estamos
+		//comparando referencias
+		if (f1 == f2) {
+		    System.out.println("iguais");
+		} else {
+		    System.out.println("diferentes");        
+		}	
 
 	}
 
