@@ -6,7 +6,7 @@ class Funcionario{
 	String nome;
 	String departamento;
 	double salario;
-	String dataEntrada;
+	Data dataEntrada;
 	String rg;
 	
 	//metodo recebeAumento sem retorno "void"
@@ -25,7 +25,7 @@ class Funcionario{
 		System.out.println("Nome: "+this.nome);
 		System.out.println("Departamento: "+this.departamento);
 		System.out.println("Salario: "+this.salario);
-		System.out.println("DataEntrada: "+this.dataEntrada);
+		System.out.println("DataEntrada: "+this.dataEntrada.getFormatada());
 		System.out.println("RG: "+this.rg);
 	}
 }
