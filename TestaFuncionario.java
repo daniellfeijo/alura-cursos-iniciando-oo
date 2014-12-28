@@ -16,6 +16,8 @@ class TestaFuncionario{
 		
 		f1.mostra();
 		*/
+		
+		/* Exercicio 04
 		Funcionario f1 = new Funcionario();        
 		f1.nome = "Danilo";
 		f1.salario = 100;
@@ -23,9 +25,17 @@ class TestaFuncionario{
 		Funcionario f2 = new Funcionario();        
 		f2.nome = "Danilo";
 		f2.salario = 100;
-		
+		*/
 		//sempre vai dar diferente pois estamos
 		//comparando referencias
+		
+		Funcionario f1 = new Funcionario ();
+
+		f1.nome = "Hugo";
+		f1.salario = 100;
+		
+		Funcionario f2 = f1;		
+
 		if (f1 == f2) {
 		    System.out.println("iguais");
 		} else {
